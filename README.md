@@ -369,3 +369,126 @@ This indicates:
 Sales Rep C demonstrates the highest conversion efficiency.
 
 Sales Rep A shows opportunity for improvement in closing performance.
+
+
+## Dashboard Design & Reporting Framework
+
+To support executive visibility and operational control, two structured dashboards were designed:
+  - Funnel + Operations Dashboard
+  - Revenue Dashboard
+
+Each dashboard serves a distinct strategic purpose.
+
+* Funnel + Operations Dashboard
+Objective
+
+To monitor acquisition performance, qualification efficiency, and operational discipline in lead management.
+
+* KPI Cards (Top-Level Metrics)
+  - Total Leads: 502
+  - Total Qualified: 48
+  - Follow-Up Backlog: 120
+
+These KPIs provide immediate visibility into:
+  - Lead volume
+  - Qualification effectiveness
+  - Sales responsiveness risk
+
+* Lead Status Distribution (Pie Chart)
+
+Visualizes lifecycle distribution across:
+  - New
+  - Contacted
+  - Proposal Sent
+  - Negotiation
+  - Closed Won
+  - Closed Lost
+  - Qualified
+
+This highlights pipeline health and identifies bottlenecks in early-stage progression.
+
+* Lead Score by Source (Bar Chart)
+
+Displays aggregated lead score grouped by acquisition channel.
+
+Purpose:
+  - Identify which sources generate higher-intent leads.
+  - Inform marketing spend optimization.
+
+* Lead Score by Company Size (Bar Chart)
+
+Measures distribution of lead quality across company segments.
+
+Purpose:
+  - Validate targeting strategy.
+  - Understand enterprise vs SMB engagement.
+
+* Lead Score by Budget Confirmed (Donut Chart)
+
+Evaluates budget readiness across lead pool.
+
+Purpose:
+  - Identify financial qualification strength.
+  - Prioritize high-probability leads.
+
+* Lead by Interest Level (Bar Chart)
+
+Segments leads by declared buying intent.
+
+Purpose:
+  - Assist sales prioritization.
+  - Validate scoring model assumptions.
+
+
+* Revenue Dashboard
+Objective
+
+To monitor financial performance, forecasting accuracy, and sales execution quality.
+
+* KPI Cards
+
+Total Revenue: $1,862,302
+
+Weighted Revenue Forecast: $1,519,917
+
+Average Sales Cycle: 64 days
+
+These metrics provide:
+  - Realized revenue visibility
+  - Predictive revenue outlook
+  - Sales velocity measurement
+
+* Revenue by Rep (Bar Chart)
+
+Displays revenue contribution per sales representative.
+
+Purpose:
+  - Identify top performers
+  - Measure rep productivity
+  - Inform coaching decisions
+
+* Revenue by Source (Bar Chart)
+
+Aggregates revenue based on acquisition channel.
+
+Purpose:
+  - Determine high-ROI channels
+  - Align marketing investment with revenue outcome
+
+* Pipeline by Stage (Donut Chart)
+
+Shows deal distribution across stages.
+
+Purpose:
+  - Assess pipeline balance
+  - Identify stage concentration risk
+  - Monitor closing ratio dynamics
+
+Revenue by Month (Line Chart)
+
+Tracks revenue trend over time.
+
+Purpose:
+  - Identify seasonality
+  - Compare forecast vs actual performance
+  - Evaluate growth trajectory
