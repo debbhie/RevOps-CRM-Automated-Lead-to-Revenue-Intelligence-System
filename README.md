@@ -82,3 +82,81 @@ Example:
   - Larger segments routed to other sales reps
 
 This ensures structured territory allocation and removes manual distribution.
+
+* CRM Record Creation
+  - Automatically creates a new record in Airtable.
+  - Each form field maps precisely to the corresponding CRM column.
+  - Maintains data integrity and standardization.
+
+* Internal Notification (Slack)
+Sends a message to the team channel announcing:
+  - New lead name
+  - Company
+  - Assigned sales representative
+  - Improves response speed and accountability.
+
+* Automated Lead Acknowledgment (Email)
+  - Sends confirmation email to the lead.
+  - Informs them that a sales representative has been assigned.
+  - Reduces friction and improves customer experience.
+ 
+* Impact
+  - Eliminated manual lead entry
+  - Standardized rep assignment
+  - Reduced initial response time
+  - Created immediate visibility across the team
+ 
+* Zap 2: Lead Qualification Workflow
+Objective:
+To trigger structured action once a lead becomes qualified.
+
+* Trigger
+New or Updated Record in Airtable.
+
+* Logic Flow
+* Qualification Check
+  - Uses Filter by Zapier to detect when Lead Status changes to “Qualified.”
+
+* Internal Action Notification
+  - Sends Slack notification instructing the team to book a discovery call.
+  - Includes key lead information for context.
+  
+* Calendar Integration
+  - Creates a Google Calendar event for scheduling discovery calls.
+  - Ensures consistency in scheduling workflow.
+
+* Lead Email Automation
+  - Sends email to the lead with booking link.
+  - Encourages timely scheduling of discovery call.
+
+* Impact
+  - Standardized qualification-to-meeting transition
+  - Reduced delays between qualification and engagement
+  - Improved meeting booking efficiency
+
+* Zap 3: Follow-Up & SLA Enforcement
+Objective
+To enforce response discipline and prevent lead leakage.
+
+* Trigger
+New or Updated Record in Airtable (Follow-Up View)
+The Zap monitors leads in a specific Airtable view:
+
+  - Status = New
+  - Last Contacted is blank
+  - No activity for 2+ days
+
+* Workflow Logic
+* Slack Reminder
+  - Sends notification to the team channel.
+  - Identifies lead requiring follow-up.
+  - Reinforces accountability.
+ 
+* Lead Reminder Email
+  - Sends reminder to lead encouraging call booking.
+  - Maintains engagement without manual intervention.
+
+* Impact
+  - Reduced risk of uncontacted leads
+  - Enforced internal SLA (Service Level Agreement)
+  - Improved follow-up consistency
