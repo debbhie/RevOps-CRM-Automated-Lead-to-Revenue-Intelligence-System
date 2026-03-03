@@ -1,4 +1,4 @@
-<img width="2560" height="1419" alt="7" src="https://github.com/user-attachments/assets/ea63a593-3aa6-4744-bd12-db032bdf2b2e" /># RevOps-CRM-Automated-Lead-to-Revenue-Intelligence-System
+# RevOps-CRM-Automated-Lead-to-Revenue-Intelligence-System
 - [Overview](#overview)
 - [Data Source](#data-source)
 - [Problem Syayement](#problem-statement)
