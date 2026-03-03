@@ -484,11 +484,125 @@ Purpose:
   - Identify stage concentration risk
   - Monitor closing ratio dynamics
 
-Revenue by Month (Line Chart)
-
+* Revenue by Month (Line Chart)
 Tracks revenue trend over time.
 
 Purpose:
   - Identify seasonality
   - Compare forecast vs actual performance
   - Evaluate growth trajectory
+  - Tracks revenue trend over time.
+
+* System-Level Outcome
+
+The dashboards transform raw CRM data into:
+  - Operational visibility
+  - Financial predictability
+  - Rep performance transparency
+  - Marketing ROI insights
+
+This reporting layer completes the RevOps loop by connecting:
+
+Acquisition → Qualification → Pipeline → Revenue → Forecast Accuracy
+
+## KEY Insights
+* Lead Qualification Efficiency Is Moderate
+   - Total Leads: 502
+   - Qualified Leads: 48
+   - Conversion Rate: 9.6%
+  
+While lead volume is healthy, fewer than 10% convert to qualified opportunities. This suggests either:
+  - Top-of-funnel targeting may need refinement
+  - Qualification criteria may be strict
+  - Lead quality varies significantly by source
+  - There is room to improve marketing-to-sales alignment.
+
+* Follow-Up Backlog Presents Revenue Risk
+   - 120 leads remain in “New” status without contact.
+ 
+Approximately 24% of total leads remain unengaged. This creates:
+  - Revenue leakage risk
+  - Delayed sales cycles
+  - Reduced conversion probability
+  - Operational responsiveness is a critical improvement area.
+
+* Strong Win Rate Indicates Effective Closing
+*   - Win Rate: 69%
+    - Closed Won: 69.7%
+    - Closed Lost: 30.3%
+  Once deals reach advanced stages, sales effectiveness is strong. The issue is not closing, it is pipeline qualification and early engagement discipline.
+
+* Forecasting Model Is Consistently Conservative
+   - March Forecast Accuracy: 122%
+   - April Forecast Accuracy: 123%
+   - Forecast Error: +22–23%
+The model under-forecasted revenue by over 20% in both months.
+This suggests:
+  - Stage probability weights may be too conservative
+  - Deals are closing at a higher rate than historical assumptions
+  - Revenue timing assumptions may need recalibration
+The forecasting engine is directionally correct but requires tuning.
+
+* Sales Cycle Length Is Stable but Moderate
+  - Average Sales Cycle: 64 days
+The cycle length is reasonable for mid-market B2B transactions, but reducing backlog and improving early engagement could shorten this further.
+
+* Rep Performance Variability
+  Close Rate by Rep:
+  - Sales Rep C: 77.78%
+  - Sales Rep B: 73.68%
+  - Deborah: 63.13%
+  - Sales Rep A: 60.00%
+Significant variance exists between reps.
+
+This indicates:
+  - Possible differences in lead allocation quality
+  - Differences in negotiation effectiveness
+  - Opportunity for coaching and best-practice sharing
+
+* Revenue by Source Shows ROI Disparity
+Revenue concentration varies by channel.
+
+Certain acquisition sources produce significantly higher revenue than others, indicating opportunity for marketing budget reallocation toward high-performing channels.
+
+## Recommendation
+* Recalibrate Forecasting Model
+ Replace single win-rate multiplier with:
+  - Stage-level probabilities
+  - Historical conversion by stage
+  - Rolling 3-month average win rates
+
+This would significantly improve forecast accuracy.
+
+* Introduce SLA Dashboard
+
+Track:
+  - Average time to first contact
+  - Follow-up time per rep
+  - Leads contacted within 24 hours
+
+This strengthens operational discipline.
+
+* Rep Performance Benchmarking
+
+Analyze:
+  - Average deal size per rep
+  - Win rate by source per rep
+  - Sales cycle by rep
+
+Use findings to standardize high-performing behaviors.
+
+* Marketing ROI Optimization
+
+Allocate marketing budget toward channels with:
+  - Highest revenue contribution
+  - Highest lead-to-qualified conversion
+  - Reduce spend on low-performing sources.
+
+* Expand Analytics Maturity
+
+Future enhancements could include:
+  - Cohort analysis
+  - Predictive deal scoring
+  - Automated pipeline health scoring
+  - Revenue growth trend forecasting
