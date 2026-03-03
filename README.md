@@ -1,4 +1,16 @@
 # RevOps-CRM-Automated-Lead-to-Revenue-Intelligence-System
+- [Overview](#overview)
+- [Data Source](#data-source)
+- [Problem Syayement](#problem-statement)
+- [Auromation Architecture](#automation-architecture)
+- [Strategic Outcome of Automation](#startegic-outcome-of-automation)
+- [Key Fields and Metrics](#key-fields-and-metrics)
+- [KPI Methodology and Results](#kpi-methodology-and-results)
+- [Dashboard Design and Reporting Framework](#dashboard-design-and-reporting-framework)
+- [Key Insights](#key-insights)
+- [Recommendations](#recommendations)
+- [Overall Strategic Conclusion](#overall-strategic-conclusion)
+
 
 ## Overview
 This project involved designing and implementing a fully automated Revenue Operations (RevOps) system using Airtable and Zapier. The objective was to eliminate manual lead tracking, reduce response time, and create a structured lifecycle workflow from acquisition through deal closure.
@@ -253,7 +265,7 @@ These views provide visibility into:
   - Forecast reliability
   - Revenue contribution per representative
 
-## KPI Methodology & Results
+## KPI Methodology And Results
 
 This section outlines the key performance indicators calculated from the Lead and Deal tables, including methodology and resulting insights.
 
@@ -371,7 +383,7 @@ Sales Rep C demonstrates the highest conversion efficiency.
 Sales Rep A shows opportunity for improvement in closing performance.
 
 
-## Dashboard Design & Reporting Framework
+## Dashboard Design And Reporting Framework
 
 To support executive visibility and operational control, two structured dashboards were designed:
   - Funnel + Operations Dashboard
@@ -564,7 +576,7 @@ Significant variance exists between reps.
 
 Certain acquisition sources produce significantly higher revenue than others, indicating opportunity for marketing budget reallocation toward high-performing channels.
 
-## Recommendation
+## Recommendations
 Introduce Stage-Based Forecasting (Not Single Win Rate)
 
 Right now:
