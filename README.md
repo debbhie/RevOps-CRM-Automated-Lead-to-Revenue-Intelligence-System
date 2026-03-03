@@ -228,6 +228,7 @@ To enforce response discipline, a dedicated view was created with the following 
   - Last Contacted = Empty
 
 This view acts as an SLA enforcement mechanism to prevent lead neglect and reduce revenue leakage.
+<img width="2558" height="1433" alt="lead1" src="https://github.com/user-attachments/assets/bc0681e1-51a0-4c74-b2a8-05d1cde2b31a" />
 
 * Deal Table – Revenue & Performance Metrics
 Total Revenue
@@ -243,8 +244,6 @@ IF({Deal Stage} = 'Closed Won',
 {Estimated Value} * 0.69)
 
 Where 0.69 represents the calculated win rate (69%). This provides a realistic projection of expected revenue.
-
-<img width="2558" height="1433" alt="lead1" src="https://github.com/user-attachments/assets/4f79a031-b03d-4295-b340-f81bdd7ff7ff" />
 
 * Average Sales Cycle (Days)
 
