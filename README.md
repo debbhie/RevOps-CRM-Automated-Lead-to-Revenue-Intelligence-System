@@ -106,18 +106,20 @@ Sends a message to the team channel announcing:
   - Company
   - Assigned sales representative
   - Improves response speed and accountability.
+    
+<img width="2560" height="1440" alt="sl" src="https://github.com/user-attachments/assets/35db9396-3e27-4cf1-ae58-55dd25a1cbf0" />
 
 * Automated Lead Acknowledgment (Email)
   - Sends confirmation email to the lead.
   - Informs them that a sales representative has been assigned.
   - Reduces friction and improves customer experience.
-<img width="2560" height="1440" alt="sl" src="https://github.com/user-attachments/assets/ace0e47d-8374-47cb-b936-382652a22fe4" />
 
 * Impact
   - Eliminated manual lead entry
   - Standardized rep assignment
   - Reduced initial response time
   - Created immediate visibility across the team
+    
 <img width="2560" height="1371" alt="1" src="https://github.com/user-attachments/assets/a34df1a1-a8be-4b0d-bec7-8aaa45c4bf11" />
 
 * Zap 2: Lead Qualification Workflow
