@@ -1,4 +1,4 @@
-# RevOps-CRM-Automated-Lead-to-Revenue-Intelligence-System
+<img width="2560" height="1419" alt="7" src="https://github.com/user-attachments/assets/ea63a593-3aa6-4744-bd12-db032bdf2b2e" /># RevOps-CRM-Automated-Lead-to-Revenue-Intelligence-System
 - [Overview](#overview)
 - [Data Source](#data-source)
 - [Problem Syayement](#problem-statement)
@@ -111,13 +111,15 @@ Sends a message to the team channel announcing:
   - Sends confirmation email to the lead.
   - Informs them that a sales representative has been assigned.
   - Reduces friction and improves customer experience.
- 
+<img width="2560" height="1440" alt="sl" src="https://github.com/user-attachments/assets/ace0e47d-8374-47cb-b936-382652a22fe4" />
+
 * Impact
   - Eliminated manual lead entry
   - Standardized rep assignment
   - Reduced initial response time
   - Created immediate visibility across the team
- 
+<img width="2560" height="1371" alt="1" src="https://github.com/user-attachments/assets/a34df1a1-a8be-4b0d-bec7-8aaa45c4bf11" />
+
 * Zap 2: Lead Qualification Workflow
 * Objective:
 To trigger structured action once a lead becomes qualified.
@@ -145,6 +147,7 @@ New or Updated Record in Airtable.
   - Standardized qualification-to-meeting transition
   - Reduced delays between qualification and engagement
   - Improved meeting booking efficiency
+<img width="2546" height="1352" alt="2" src="https://github.com/user-attachments/assets/4be02c3d-1592-4bf9-b862-c1083f093a4d" />
 
 * Zap 3: Follow-Up & SLA Enforcement
 * Objective
@@ -172,7 +175,9 @@ To enforce response discipline and prevent lead leakage.
   - Reduced risk of uncontacted leads
   - Enforced internal SLA (Service Level Agreement)
   - Improved follow-up consistency
- 
+
+<img width="2560" height="1345" alt="3" src="https://github.com/user-attachments/assets/70a36c26-a3f3-4af4-ab52-f5f1c876a789" />
+
 ## Strategic Outcome of Automation
 
 Together, the three Zaps create a closed-loop system:
@@ -237,6 +242,8 @@ IF({Deal Stage} = 'Closed Won',
 
 Where 0.69 represents the calculated win rate (69%). This provides a realistic projection of expected revenue.
 
+<img width="2558" height="1433" alt="lead1" src="https://github.com/user-attachments/assets/4f79a031-b03d-4295-b340-f81bdd7ff7ff" />
+
 * Average Sales Cycle (Days)
 
 Calculated using:
@@ -264,6 +271,8 @@ These views provide visibility into:
   - Pipeline distribution
   - Forecast reliability
   - Revenue contribution per representative
+
+<img width="2558" height="1404" alt="deal1" src="https://github.com/user-attachments/assets/ea5eec71-7d11-4005-9336-8460f208faed" />
 
 ## KPI Methodology And Results
 
@@ -406,6 +415,8 @@ These KPIs provide immediate visibility into:
   - Qualification effectiveness
   - Sales responsiveness risk
 
+<img width="2560" height="1419" alt="7" src="https://github.com/user-attachments/assets/b5e4564c-2a74-49cb-a75d-971525d705e1" />
+
 * Lead Status Distribution (Pie Chart)
 
 Visualizes lifecycle distribution across:
@@ -419,6 +430,8 @@ Visualizes lifecycle distribution across:
 
 This highlights pipeline health and identifies bottlenecks in early-stage progression.
 
+<img width="2560" height="1411" alt="8" src="https://github.com/user-attachments/assets/f50337c2-4fb2-47ad-8c6f-86465d480f08" />
+
 * Lead Score by Source (Bar Chart)
 
 Displays aggregated lead score grouped by acquisition channel.
@@ -426,6 +439,8 @@ Displays aggregated lead score grouped by acquisition channel.
 Purpose:
   - Identify which sources generate higher-intent leads.
   - Inform marketing spend optimization.
+
+<img width="2558" height="1414" alt="9" src="https://github.com/user-attachments/assets/900764ba-8d1f-4c6e-a763-a7b5bc1b02b9" />
 
 * Lead Score by Company Size (Bar Chart)
 
@@ -470,6 +485,8 @@ These metrics provide:
   - Predictive revenue outlook
   - Sales velocity measurement
 
+<img width="2529" height="1394" alt="4" src="https://github.com/user-attachments/assets/d1835c7d-b4d2-4d6e-8d5d-0119a1bd2fd4" />
+
 * Revenue by Rep (Bar Chart)
 
 Displays revenue contribution per sales representative.
@@ -478,6 +495,8 @@ Purpose:
   - Identify top performers
   - Measure rep productivity
   - Inform coaching decisions
+
+<img width="2543" height="1401" alt="5" src="https://github.com/user-attachments/assets/40f8f352-36e8-479e-8f85-df52650de3ef" />
 
 * Revenue by Source (Bar Chart)
 
@@ -495,6 +514,8 @@ Purpose:
   - Assess pipeline balance
   - Identify stage concentration risk
   - Monitor closing ratio dynamics
+  - 
+<img width="2556" height="1409" alt="6" src="https://github.com/user-attachments/assets/60ebe9c4-05f0-42a5-9db7-2765576228de" />
 
 * Revenue by Month (Line Chart)
 Tracks revenue trend over time.
