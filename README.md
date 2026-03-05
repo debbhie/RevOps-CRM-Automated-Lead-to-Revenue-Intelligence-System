@@ -81,6 +81,7 @@ To automate lead intake, rep assignment, CRM entry, and initial communication.
 
 * Trigger
 New or Updated Response in Google Forms.
+<img width="2554" height="1361" alt="0" src="https://github.com/user-attachments/assets/95f562e6-19f8-4023-ae9e-b04d66f9e3ee" />
 
 * Workflow Logic
   - Lead Intake
