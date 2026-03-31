@@ -1,7 +1,7 @@
 # RevOps-CRM-Automated-Lead-to-Revenue-Intelligence-System
 - [Overview](#overview)
 - [Data Source](#data-source)
-- [Problem Syayement](#problem-statement)
+- [Problem Statement](#problem-statement)
 - [Auromation Architecture](#automation-architecture)
 - [Strategic Outcome of Automation](#startegic-outcome-of-automation)
 - [Key Fields and Metrics](#key-fields-and-metrics)
